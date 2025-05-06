@@ -25,6 +25,8 @@ export const createPost = async (req, res) => {
 
 export const deletePost = async (req, res) => {
   const clerkUserId = req.auth.userId;
+  console.log(req.auth);
+
   if (!clerkUserId) {
     return res.status(401).json({ message: 'Not Authenticated' });
   }
