@@ -19,8 +19,12 @@
   },
   "homepage": "https://github.com/Moamen-alghareeb/Life-In-Pages-Back-End#readme",
   "dependencies": {
+    "@clerk/express": "^1.4.14",
+    "@ngrok/ngrok": "^1.5.1",
+    "body-parser": "^2.2.0",
     "express": "^5.1.0",
     "mongodb": "^6.16.0",
-    "mongoose": "^8.14.1"
+    "mongoose": "^8.14.1",
+    "svix": "^1.64.1"
   }
 }
